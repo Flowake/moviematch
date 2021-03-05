@@ -1,0 +1,11 @@
+{
+  "name": "moviematch-web",
+  "description": "MovieMatch's Web UI",
+  "keywords": [],
+  "author": "Luke Channings <luke@channings.me>",
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "http-proxy": "^1.18.1",
+    "snowpack-plugin-replace": "https://github.com/BinSentry/snowpack-plugin-replace.git"
+  }
+}

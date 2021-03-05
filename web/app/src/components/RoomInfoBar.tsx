@@ -55,7 +55,7 @@ export const RoomInfoBar = ({
                   avatarUrl={store.user!.avatar}
                 />
                 <p className="RoomInfoBar_User_UserName">
-                  {store.user!.userName}
+                  {store.user!.userName} lala
                 </p>
                 {isPopoverOpen && (
                   <Popover>

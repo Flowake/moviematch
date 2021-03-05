@@ -13,6 +13,7 @@ import {
 const API_URL = (() => {
   const url = new URL(location.href);
   url.pathname = document.body.dataset.basePath + "/api/ws";
+  url.port = "8000";
   url.protocol = url.protocol === "https:" ? "wss:" : "ws:";
   return url.href;
 })();
@@ -54,7 +55,7 @@ export class MovieMatchClient extends EventTarget {
   };
 
   private handleClose = () => {
-    location.reload();
+    // location.reload();
   };
 
   waitForMessage = <K extends ClientMessage["type"]>(

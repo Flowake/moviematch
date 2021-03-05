@@ -4,3 +4,4 @@ web/app/dist
 pkg.ts
 config.yaml
 build
+node_modules
